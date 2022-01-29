@@ -1,15 +1,15 @@
 dependencies:
-  - OpenZeppelin/openzeppelin-contracts@3.4.0
+  - OpenZeppelin/openzeppelin-contracts@4.4.2
 compiler:
   solc:
     remappings:
-      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.4.0'
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.4.2'
 dotenv: .env
 networks:
   development:
     verify: False
   rinkeby:
-    verify: True
+    verify: False
   ganache:
     verify: False
   kovan:
